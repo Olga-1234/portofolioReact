@@ -1,0 +1,34 @@
+{
+    "projets":[
+        {
+            "titre":"Site  Kinshasa Digital",
+            "description":"Reproduction de la page d'accueil et la page Emploi du site web de Kinshasa Digital",
+            "image":"https://res.cloudinary.com/dpun7m42o/image/upload/v1634750879/portofolio/allocine_ainrco.png",
+            "alt":"site kinshasa Digital",
+            "link":"https://olga-1234.github.io/travail5/"
+            
+        },
+        {
+            "titre":" Formulaire Contact ",
+            "description":"Reproduire fidèlement la maquette d'un formulaire",
+            "image":"./img/frm.png",
+            "alt":"formulaire de contact",
+            "link":"https://olga-1234.github.io/travail4/"
+                },
+                {
+                    "titre":" Bienvenue dans KD",
+                    "description":"Structurer un document HTML à partir d'une maquette",
+                    "image":"./img/projetconficius.jpg",
+                    "alt":"article kda",
+                    "link":"https://olga-1234.github.io/travail2/"
+                },
+                {
+                    "titre":"Allô ciné",
+                    "description":"Créer un site pour la recherche des films et visualisation",
+                    "image":"./img/allocine.png",
+                    "alt":"allô ciné",
+                    "link":"https://travail9-site-cinema.vercel.app/"
+                }
+            ]
+    
+}
