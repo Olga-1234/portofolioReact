@@ -11,7 +11,7 @@
 }
 
 .fab_width {
-    font-size: 5em;
+    font-size: 3em;
 }
 
 .padding-skills
@@ -20,10 +20,54 @@
     padding-right: 20%;
 }
 .card-width{
-width: 22rem;
+/* width: 2rem; */
 }
 
 .a{
 text-decoration:none;
 
+}
+.bg-brown{
+    background-color: brown;
+     border-radius: 10px;
+    box-shadow: 10px 10px 100px rgba(141, 67, 67, 0.316) ;
+
+
+}
+@media(max-width: 48em){
+    .padding-skills-responsive{
+        padding:0% !important;
+        margin: 0 !important;
+    
+
+    }
+}
+.height{
+    height:100% ;
+    cursor: pointer;
+}
+.height:hover{
+    background-color: brown;
+    color: white !important;
+}
+.button{
+    border: brown 1px solid !important;
+}
+.button:hover{
+    color: white !important;
+    background-color: transparent;
+    border: white solid 1px !important;
+}
+
+.a{
+    display: block;
+padding: 10px 10px;
+text-decoration: none;
+
+} 
+.a:hover{
+    color: white !important;
+}
+.text-brown{
+    color: brown;
 }

@@ -1,23 +1,64 @@
-import profil from "./img/ol3.png"
-const Home=()=> {
-    return (
-        
-             <div className=" bg-secondary text-white">
-                 <div className="row col-12 flex-lg-row-reverse">
-                    <div className="col-12 col-sm-8 col-lg-6">
-                        <img src={profil}
-                            className="  img-fluid" alt="Bootstrap Themes" width="600" height="200"
-                            loading="lazy"/>
-                    </div>
-                   <div className="col-lg-6  py-5 mt-5">
-                        <h1 className=" mt-5 p-5 fw-bold">
-                            Bienvenue! <br/> Je suis <br/>Olga Mujinga
-                        </h1>
-                    </div>
-                </div> 
-            </div>
-        
-    )
-}
+import profil from "./img/omn2.png";
+import "./styles/home.css";
+const Home = () => {
+  return (
+    <div>
+      <nav id="acceuil" className="header container">
+        <a href="/" className="logo ">
+          omn{" "}
+        </a>
 
-export default Home
+        <input className="menubtn" type="checkbox" id="menu-btn" />
+        <label className="menuicon" for="menu-btn">
+          <span className="navicon"></span>
+        </label>
+        <ul className="menu  col-7 d-flex justify-content-evenly">
+          <li>
+            <a className="" href="#apropos">
+              A propos
+            </a>
+          </li>
+
+          <li>
+            <a href="#competence">Compétences</a>
+          </li>
+          <li>
+            <a href="#projet">Projets réalisés</a>
+          </li>
+          <li>
+            <a href="#contact">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div className="bg-green   container  d-flex text-white">
+        <div className="col-sm-6 d-flex row  align-items-center justify-content-center  padding">
+          <div className="d-flex row text-center">
+            {" "}
+            <h1 className="h3">Hello! Je suis</h1>
+            <h2 className="h1 padding   fw-bold">Olga Mujinga</h2>
+            <p className="h5"> Développeur Full-Stack</p>
+
+            <a href="/images/myw3schoolsimage.jpg" download>
+<button className="py-2 my-3 rounded px-3 button fw-bold">Télécharger Cv</button>
+</a>
+
+          </div>
+        </div>
+        <div className="col-sm-6 d-flex justify-content-center padding ">
+          <div className=" height">
+            {" "}
+            <img
+              src={profil}
+              className=" container-fluid"
+              alt="Bootstrap Themes"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Home;

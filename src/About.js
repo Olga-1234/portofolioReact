@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div className="mt-5 mb-5">
+    <div id="apropos" className="mt-5 mb-5">
       <h2 className="fw-bold lh-1 text-center pt-5">A propos</h2>
       <p className="police h5 py-5 with-about" >
         J'habite Kinshasa en République Démocratique du Congo. Je suis
