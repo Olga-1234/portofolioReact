@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="d-flex  justify-content-between" >
         <div className="d-flex justify-content-between">
           <div className="col-12 col-sm-12">
-            <p className="fw-bold">Tél</p>
+            <p className="fw-bold">Téléphone</p>
             <p>+243 82 20 28 987</p>
           </div>
           <div className="col-12 col-sm-12">
