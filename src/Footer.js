@@ -2,9 +2,9 @@ const Footer = () => {
   return (
     <div
       id="contact"
-      className="  d-flex justify-content-center"
+      className="d-flex justify-content-center"
     >
-      <div className="container ">
+      <div className="container">
         <p className="h3 fw-bold mt-5 mb-5">CONTACTS</p>
         <div className="d-flex  justify-content-between" >
         <div className="d-flex justify-content-between">

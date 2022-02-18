@@ -5,7 +5,7 @@ const Project = () => {
         <div className="h1 d-flex justify-content-center mt-5 mb-5">
           Projets réalisés
         </div>
-        <div className="col-12 row row-cols-1 row-cols-sm-2 d-flex justify-content-centr row-cols-md-3 g-3">
+        <div className="col-12 row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
           {/* <div className="col "> */}
             <div className="card height shadow-sm">
               <div className="card-body">
@@ -15,7 +15,7 @@ const Project = () => {
                   Reproduire fidèlement la maquette d'un formulaire.
                 </p>
                 <button className="button border ">
-                  <a href="https://olga-1234.github.io/travail4/" className="a">
+                  <a href="https://olga-1234.github.io/travail4/" target="_blank" rel="noreferrer" className="a">
                     Voir le site
                   </a>
                 </button>
@@ -33,7 +33,7 @@ const Project = () => {
                   web de Kinshasa Digital..
                 </p>
                 <button className="button border ">
-                  <a href="https://olga-1234.github.io/travail4/" className="a">
+                  <a href="https://olga-1234.github.io/travail4/" target="_blank" rel="noreferrer" className="a">
                     Voir le site
                   </a>
                 </button>
@@ -51,7 +51,7 @@ const Project = () => {
                   une nouvelle base des données...
                 </p>
                 <button className="button border ">
-                  <a href="https://environews-rdc.org/" className="a">
+                  <a href="https://environews-rdc.org/" target="_blank" rel="noreferrer" className="a">
                     Voir le site
                   </a>
                 </button>
@@ -70,6 +70,7 @@ const Project = () => {
                 <button className="button border ">
                   <a
                     href="https://travail9-site-cinema.vercel.app/"
+                    target="_blank" rel="noreferrer"
                     className="a"
                   >
                     Voir le site
@@ -88,7 +89,7 @@ const Project = () => {
                   Structurer un document HTML à partir d'une maquette.
                 </p>
                 <button className="button border ">
-                  <a href="https://olga-1234.github.io/travail2/" className="a">
+                  <a href="https://olga-1234.github.io/travail2/" target="_blank" rel="noreferrer" className="a">
                     Voir le site
                   </a>
                 </button>

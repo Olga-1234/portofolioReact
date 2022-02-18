@@ -1,5 +1,6 @@
 import profil from "./img/omn2.png";
 import "./styles/home.css";
+import Cv from "./img/CV_OLGA_MUJINGA.pdf"
 const Home = () => {
   return (
     <div>
@@ -38,11 +39,11 @@ const Home = () => {
             <h1 className="h3">Hello! Je suis</h1>
             <h2 className="h1 padding   fw-bold">Olga Mujinga</h2>
             <p className="h5"> Développeur Full-Stack</p>
-
-            <a href="/images/myw3schoolsimage.jpg" download>
-<button className="py-2 my-3 rounded px-3 button fw-bold">Télécharger Cv</button>
-</a>
-
+            <a href={Cv} download>
+              <button className="py-2 my-3 rounded px-3 buttonO fw-bold">
+                Télécharger Cv
+              </button>
+            </a>
           </div>
         </div>
         <div className="col-sm-6 d-flex justify-content-center padding ">

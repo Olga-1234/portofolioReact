@@ -24,6 +24,18 @@
     border: white solid 1px !important;
 }
 
+.buttonO{
+  background-color: white;
+  color: brown;
+  border: transparent 1px solid !important;
+
+}
+.buttonO:hover{
+  color: white;
+  background-color: transparent;
+  border: white solid 1px !important;
+}
+
 
 .a {
     color: #000;
@@ -36,7 +48,7 @@
     left: 3%;
     /* z-index: 999999; */
     padding-top: 15px;
-    width: 94%;
+    width: 100vw;
 
   }
   .height{

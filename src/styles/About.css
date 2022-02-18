@@ -43,7 +43,7 @@ text-decoration:none;
     }
 }
 .height{
-    height:100% ;
+    height:auto ;
     cursor: pointer;
 }
 .height:hover{
