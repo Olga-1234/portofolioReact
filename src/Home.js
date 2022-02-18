@@ -1,6 +1,6 @@
 import profil from "./img/omn2.png";
 import "./styles/home.css";
-import Cv from "./img/CV_OLGA_MUJINGA.pdf"
+import Cv from "./img/CV_OLGA_MUJINGA.pdf";
 const Home = () => {
   return (
     <div>
@@ -32,8 +32,8 @@ const Home = () => {
         </ul>
       </nav>
 
-      <div className="bg-green   container  d-flex text-white">
-        <div className="col-sm-6 d-flex row  align-items-center justify-content-center  padding">
+      <div className="bg-green container  d-flex text-white">
+        <div className="col-sm-6 col-12 d-flex row  align-items-center justify-content-center  padding">
           <div className="d-flex row text-center">
             {" "}
             <h1 className="h3">Hello! Je suis</h1>
@@ -46,8 +46,8 @@ const Home = () => {
             </a>
           </div>
         </div>
-        <div className="col-sm-6 d-flex justify-content-center padding ">
-          <div className=" height">
+        <div className="col-sm-6 col-0 d-flex justify-content-center padding ">
+          <div className="height">
             {" "}
             <img
               src={profil}
