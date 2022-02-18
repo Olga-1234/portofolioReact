@@ -5,15 +5,15 @@ const Home = () => {
   return (
     <div>
       <nav id="acceuil" className="header container">
-        <a href="/" className="logo ">
+        <a href="/" className="logo col-2 ">
           omn{" "}
         </a>
 
-        <input className="menubtn" type="checkbox" id="menu-btn" />
-        <label className="menuicon" for="menu-btn">
-          <span className="navicon"></span>
+        <input className="menubtn  col-sm-7 border  col-0 " type="checkbox" id="menu-btn" />
+        <label className="menuicon  col-0 " for="menu-btn">
+          <span className="navicon  col-0 "></span>
         </label>
-        <ul className="menu  col-7 d-flex justify-content-evenly">
+        <ul className="menu row row-cols-1 row-cols-sm-1 justify-content-between row-cols-md-4">
           <li>
             <a className="" href="#apropos">
               A propos
